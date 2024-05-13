@@ -1,0 +1,97 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    margin-top: 200px;
+    padding-left: 25%;
+    padding-right: 25% ;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    text-align:center;
+    margin-left: 50px;
+    width: 70%;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.head p{
+    width: 70%;
+    padding-left: 50px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.features-container{display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.feature1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.feature1text{
+    width: 50%;
+
+}
+.feature1img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* width: 50%; */
+    width: 350px;
+}
+.feature2{
+    display: flex;
+    justify-content: space-between;
+}
+.feature2text{
+    width: 50%;
+
+}
+.feature2img{
+    /* position: relative; */
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    width: 50%;
+}
+.feature3{
+    display: flex;
+    justify-content: space-between;
+}
+.feature1text h1 span{
+    background: linear-gradient(270deg, #ff8400 0.36%, #ff6a00 102.60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature2text h1 span{
+    background: linear-gradient(270deg, #ff8400 0.36%, #ff6a00 102.60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature3text h1 span{
+    background: linear-gradient(270deg, #ff8400 0.36%, #ff6a00 102.60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature3text{
+    width: 50%;
+
+}
+.feature3img{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
